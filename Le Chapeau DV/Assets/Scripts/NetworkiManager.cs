@@ -1,14 +1,12 @@
-/*    using System.Collections;
+    using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
     using Photon.Pun;
 
-    public class NetworkiManager : MonoBehaviour
+    public class NetworkManager : MonoBehaviourPunCallbacks
     {
     // instance
     public static NetworkManager instance;
-    public class NetworkManager : MonoBehaviourPunCallbacks
-
         void Awake ()
         {
             // if an instance already exists and it's not this one - destroy us
@@ -35,14 +33,16 @@
         }
 
         // attempt to join an existing room
-        public void CreateRoom (string roomName)
+        public void JoinRoom (string roomName)
         {
             PhotonNetwork.JoinRoom(roomName);
         }
 
+        // changes the scene using Photon's system
+        [PunRPC]
         public void ChangeScene (string sceneName)
         {
-            PhotonNetwork.LoadLevel(sceneName);
+         PhotonNetwork.LoadLevel(sceneName);
         }
 
         public override void OnConnectedToMaster ()
@@ -50,10 +50,11 @@
             Debug.Log("Connected to master server");
         }
 
+
+
         // Update is called once per frame
         void Update()
         {
             
         }
     }
-*/

@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +8,10 @@ using Photon.Realtime;
 
 public class Menu : MonoBehaviourPunCallbacks
 {
+    [Header("Main Screen")]
+    public Button createRoomButton;
+    public Button joinRoomButton;
+    
      [Header("Screens")]
      public GameObject mainScreen;
      public GameObject lobbyScreen;
@@ -58,4 +62,3 @@ public class Menu : MonoBehaviourPunCallbacks
         
     }
 }
-*/
