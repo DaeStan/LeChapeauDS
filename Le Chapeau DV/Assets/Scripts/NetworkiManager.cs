@@ -11,7 +11,7 @@
         {
             // if an instance already exists and it's not this one - destroy us
             if(instance != null && instance != this)
-            gameObject.SetActive(false);
+                gameObject.SetActive(false);
             else
             {
                 // set the instance
@@ -30,6 +30,7 @@
         public void CreateRoom (string roomName)
         {
             PhotonNetwork.CreateRoom(roomName);
+            Debug.Log("Rm made");
         }
 
         // attempt to join an existing room
@@ -49,8 +50,6 @@
         {
             Debug.Log("Connected to master server");
         }
-
-
 
         // Update is called once per frame
         void Update()

@@ -373,7 +373,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 224185104}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833982039}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: OnCreateRoomButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1874783906}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &224185104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,7 +506,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 309698225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833982039}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: OnJoinRoomButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1874783906}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &309698225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,7 +1074,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 687011929}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833982039}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: OnStartGameButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &687011929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1507,7 +1543,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927424046}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a66058c646fcfba46873895f2cee038f, type: 3}
   m_Name: 
@@ -2209,7 +2245,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1430772160}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833982039}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: OnLeaveLobbyButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1430772160
 MonoBehaviour:
   m_ObjectHideFlags: 0
