@@ -56,7 +56,7 @@ public class Menu : MonoBehaviourPunCallbacks
     }
 
 
-        public void OnPlayerNameUpdate (TMP_InputField playerNameInput)
+    public void OnPlayerNameUpdate (TMP_InputField playerNameInput)
     {
         PhotonNetwork.NickName = playerNameInput.text;
     }
