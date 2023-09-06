@@ -1,5 +1,5 @@
 # LeChapeauDS
 
 https://daestan.github.io/LeChapeauDS/
-(Buttons Broken)
+(Players names not appearing in lobby)
  
