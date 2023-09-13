@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable
 
         // if this isn't our local player, disable physics as that's
         // controlled by the user and synced to all other clients
-        if (photonView.IsMine)
+        if (!photonView.IsMine)
             rig.isKinematic = true;
 
         // give the first player the hat

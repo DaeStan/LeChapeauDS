@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-using Photon.Realtime;
+//using Photon.Realtime;
 using System.Linq;
 
 public class GameManager : MonoBehaviourPunCallbacks
@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
 
     // Start is called before the first frame update
+    [PunRPC]
     void Start()
     {
         players = new PlayerController[PhotonNetwork.PlayerList.Length];
